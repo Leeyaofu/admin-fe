@@ -1,0 +1,36 @@
+{
+  "name": "admin-fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Leeyaofu/admin-fe.git",
+  "author": "Leeyaofu <2327900990@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":"node_modules/.bin/webpack-dev-server",
+    "dist":"set WEBPACK_ENV=online&&node_modules/.bin/webpack -p"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "1.1.6",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.9.7"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "rc-pagination": "^1.17.8",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.4.0",
+    "simditor": "^2.3.23"
+  }
+}
